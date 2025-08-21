@@ -1,0 +1,527 @@
+.jqx-window h2{
+    font-size: 14px;
+    color: #666666;
+}
+#titleBar{
+    position: relative;
+    width: 1200px;
+}
+#titleBar img{
+    height: 75px;
+}
+#titleBar img:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#jqxGrid{
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}
+.infoBox{
+    color: #999999;
+}
+#jqxTabs .tabContent {
+    position: relative;
+    height: 100%;
+}
+#jqxTabs ul li:first-child {
+    margin-left: 30px;
+}
+#jqxTabs .tabContent h2{
+    font-size: 14px;
+}
+#jqxTabs .tabContent .textFrame {
+    padding: 25px;
+}
+
+#jqxTabs .tabContent .tabNav {
+    position: absolute;
+    height: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+
+    border-top-color: #666666;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+#jqxTabs .tabContent .tabNav input[type="button"]{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#jqxTabs .tabContent .tabNav input:nth-child(2){
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.toolbar-img{
+    height: 16px;
+    width: 16px;
+}
+
+#label{
+    position: relative;
+    display: inline-block;
+
+    display: none;
+
+    margin-top:30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+    /*width: 297mm;
+    height: 105mm;*/
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    box-shadow: 3px 3px 5px grey;
+
+    overflow: hidden;
+}
+#layoutWarningSelectFormat{
+    border-color: #FF0000;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 3px;
+
+    display: inline-block;
+
+    background-color: #fedcde;
+}
+
+/*
+.layoutElementsToolbar{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+
+    display: inline-block;
+
+
+    border-color: #666666;
+    border-style: solid;
+    border-width: 1px;
+
+    text-align: center;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+*/
+.layoutElementsToolbarTools{
+    margin: 10px;
+}
+.layoutElementsToolbarButton{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#toolFormat{
+    /*
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #666666;
+
+    background-color: #e8e8e8;
+    */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */   
+}
+/*
+#toolFormat>div{
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 5px;
+}
+*/
+#layoutFormatEditLayout{
+    margin-left: 100px;
+}
+
+.layoutElement{
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+
+    vertical-align: middle;
+    text-align: center;
+
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+
+    overflow: hidden;
+    line-height: 100%;
+    min-height: 10px;
+    min-width: 10px;
+    width: 100px;
+    height: 25px;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+}
+.layoutElementEdit{
+    border-width: 1px;
+    border-color: #999999;
+    border-style: dotted;
+
+    cursor: move;
+}
+.layoutElementEditSelected{
+    border-color: #418af8;  
+    border-width: 1px;
+    border-style: dotted;
+}
+.layoutElementContent{
+    position: absolute;
+    width: 100%;
+    text-decoration: inherit;
+}
+.layoutElementContent img{
+    height: 100%;
+    width: 100%;
+}
+#layoutPopover .jqx-popover-content div{
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+/*product selector*/
+.prodTile{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+
+    width: 200px;
+    height: 140px;
+
+
+    text-align: center;
+
+    /*box-sizing: border-box;*/
+
+    margin-bottom: 20px;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+
+    /*padding: 5px;*/
+    background-color: #007150;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.prodTile img{
+    width: 200px;
+}
+.artTile{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    width: 200px;
+    height: 40px;
+
+    margin-bottom: 20px;
+
+    background-color: #ebecec;
+
+    box-shadow: 3px 3px 5px grey;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+
+    cursor: pointer;
+}
+.artTileSelected{
+    border-color: #007150;
+    background-color: #CCE3DD;
+}
+.artTileArtNo{
+    font-weight: bold;
+    width: 90px;
+    line-height: 38px;
+    padding-left: 5px;
+    font-size: 15px;
+    vertical-align:middle;
+    display: inline-block;
+}
+.artTileInfo{
+    display: inline-block;
+    vertical-align:middle;
+    color: #666666;
+}
+.prodWrapper{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+
+.pagePreviewItemPage{
+    box-sizing: border-box;
+    position: relative;
+    background-color: #FFFFFF;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.pagePreviewItemPageWrap{
+    display: inline-block;
+    box-shadow: 5px 5px 5px grey;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    border-width: 1px;
+    border-color: #999999;
+    border-style: solid;
+
+    overflow: hidden;
+}
+.pagePreviewItemLabel{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 90mm;
+    height: 25mm;
+
+    margin: 0;
+
+    border-width: 1px;
+    border-color: #999999;
+    border-style: dotted;
+
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+
+    overflow: hidden;
+}
+.previewLabelContent{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.previewLabelContentElement{
+    position: absolute;
+    margin: 0;
+}
+.dialogButtons{
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 25px;
+    text-align: center;
+}
+.dialogButtons input{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#layoutDataHelp{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.toolbarIcon{
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 2px 2px;
+}
+.toolbarTextLeft{
+    background-image: url("../images/align_left.png");
+}
+.toolbarTextCenter{
+    background-image: url("../images/align_center.png");
+}
+.toolbarTextRight{
+    background-image: url("../images/align_right.png");
+}
+.toolbarTextTop{
+    background-image: url("../images/format_top.png");
+}
+.toolbarTextMiddle{
+    background-image: url("../images/format_middle.png");
+}
+.toolbarTextBottom{
+    background-image: url("../images/format_bottom.png");
+}
+.toolbarButtonTools{
+    background-image: url("../images/tools.png");
+}
+.toolbarPrev{
+    background-image: url("../images/prev.png");
+}
+.toolbarNext{
+    background-image: url("../images/next.png");
+}
+.toolbarPrint{
+    background-image: url("../images/print.png");
+}
+.toolbarSave{
+    background-image: url("../images/save.png");
+}
+.toolbarNew{
+    background-image: url("../images/new.png");
+}
+.toolbarOpen{
+    background-image: url("../images/open.png");
+}
+.printDialogPrint{
+    background-image: url("../images/print.png");
+    background-repeat: no-repeat;
+    background-size: 64px 64px;
+    padding-left: 80px;
+}
+.printDialogInfo{
+    padding-left: 80px;
+    color: #999999;
+    font-size: 0.9em;
+}
+.imgButton{
+    float: left; 
+    text-align: center;
+    margin-right: 10px;
+}
+#actionContinue{
+    margin-top: 10px;
+}
+
+/* new layout */
+.tabContent10{
+    padding: 10px;
+}
+.layoutNewPageData{
+    display: none;
+}
+.layoutNewFormField{
+    display: inline-block;
+    font-size: 12px;
+
+    width: 160px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    vertical-align: top;
+}
+.layoutNewFormField>div{
+    font-size: 12px;
+    color: #999999;
+}
+.layoutNewFormField>img{
+    float: right;
+}
+.layoutNewFormFieldInput{
+    width: 100px;
+}
+.layoutNewFormPreview{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    zoom: 0.4;
+}
+/*Property form*/
+.propertyWindowPropertyTitle{
+    font-weight: bold;
+    background-color: #e9eff8;
+    padding: 2px;
+
+    border-bottom-style: solid;
+    border-bottom-color: #999999;
+    border-bottom-width: 1px;
+}
+
+.propertyWindowProperty{
+    display:table-row;
+}
+.propertyWindowPropertyLabel{
+    display: table-cell;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 2px;
+
+    /*    height: 24px;*/
+
+    background-color: #EEEEEE;
+
+    border-style: solid;
+    border-color: #999999;
+    border-width: 1px;
+
+    border-top-width: 0;
+}
+.propertyWindowPropertyValue{
+    display: table-cell;
+    box-sizing: border-box;
+    width: 50%;
+
+    /*height: 24px;*/
+
+    border-style: solid;
+    border-color: #999999;
+    border-width: 1px;
+
+    border-left-width: 0;
+    border-top-width: 0;
+}
+.propertyWindowPropertyValue input{
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+
+    min-height: 12px;
+
+
+}
+.propertyWindowPropertyValue select{
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 20px;
+}
+
+.readonly{
+    color: #666666;
+    background-color: #F8F8F8;
+}
+
+.disabled{
+    color: #BBBBBB;
+    background-color: #F8F8F8;
+}
+.noMarginRight{
+    marginRight: 0;
+}
